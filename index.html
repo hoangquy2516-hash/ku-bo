@@ -371,7 +371,7 @@
       starMesh.position.set(0, CONFIG.treeHeight/2 + 2, 0);
       scene.add(starMesh);
 
-      // LOVE TEXT: "Yêu e ❤️" (shown on fist)
+      // LOVE TEXT: "Love Ku Bơ ❤️" (shown on fist)
       const loveCanvas = document.createElement('canvas');
       loveCanvas.width = 1024; loveCanvas.height = 256;
       const lCtx = loveCanvas.getContext('2d');
@@ -380,7 +380,7 @@
       lCtx.textAlign = 'center';
       lCtx.shadowColor = "#FF1493";
       lCtx.shadowBlur = 40;
-      lCtx.fillText("Yêu e ❤️", 512, 150);
+      lCtx.fillText("Love Ku Bơ ❤️", 512, 150);
 
       const loveTex = new THREE.CanvasTexture(loveCanvas);
       const loveMat = new THREE.MeshBasicMaterial({ map: loveTex, transparent: true, blending: THREE.AdditiveBlending });
